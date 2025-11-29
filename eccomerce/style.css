@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    height:7%;
+    width:7%;
+}
+
+.admin_picture{
+    width: 100px;
+    object-fit: contain;
+}
+
+.nav-link{
+    color: whitesmoke;
+    
+}
+
+.navbar-toggler{
+    color: whitesmoke;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.contact-row {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;     
+    gap: 20px;              
+    margin-top: 10px;
+}
+
+.contact-row i {
+    margin-right: 5px;       
+    font-size: 1.2em;        
+}
+.contact-row a {
+    color: #fff;            
+    font-size: 1.5em;        
+    transition: color 0.3s;
+}
+
+.contact-row a:hover {
+    color: #3b5998;          
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px;
+}
